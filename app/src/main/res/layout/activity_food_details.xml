@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    >
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:background="@color/secondaryLightColor"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/texttolbar"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/productGridBackgroundColor"
+                android:textSize="20dp"
+
+                android:text="التفاصيل "
+                ></TextView>
+        </RelativeLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ImageView
+        android:id="@+id/image_foodDetails"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/toolbar"
+
+       />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="النوع"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/type"></TextView>
+    <Button
+        android:id="@+id/btn_add_size"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"      android:layout_margin="10dp"
+        android:text="اختار المقاسات  "
+
+
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    <com.andremion.counterfab.CounterFab
+android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btnCart_foodDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:backgroundTint="@color/secondaryColor"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/shopping_cart_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>
+</LinearLayout>

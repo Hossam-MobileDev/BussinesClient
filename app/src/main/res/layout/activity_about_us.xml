@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:background="@drawable/soso"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/textColorPrimary"
+        android:layout_margin="6dp"
+        android:text="رقم الجوال"></TextView>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:textColor="@color/secondaryColor"
+    android:layout_margin="6dp"
+    android:text="٠١٢٧٨٤٣٥٥٥٢"></TextView
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginTop="20dp"
+        android:text="٢٠شارع الدكتور سيد فهمي عماره قصر كليوباترا بجوار مستشفى اندلسيه أعلي صيدليه مونديال الدور ٣ شقه ٣٠٣"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/textColorPrimary"
+        android:layout_margin="6dp"
+        android:text="الاسكندرية"></TextView>
+</LinearLayout>
